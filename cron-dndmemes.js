@@ -1,7 +1,7 @@
 'use strict';
 
 const request = require('request');
-const token = 'xoxb-254877362231-qAlmlGYCCss4DgHsjtrClm8J';
+const token = 'oops';
 const baseURL = 'https://bonebrawlers.slack.com/api/chat.postMessage';
 
 const callAPI = (form, cb) => {
