@@ -23,6 +23,7 @@ functions:
   memes:
     handler: cron-dndmemes
     events:
+      - schedule: cron(0 15 * * *) # run every day at 3PM PST
 
 plugins:
   - '@webtask/serverless-webtasks'
