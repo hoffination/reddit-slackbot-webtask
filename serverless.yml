@@ -16,8 +16,6 @@ service:
 
 provider:
   name: webtasks
-  # environment:
-  #   stoken: xoxb-254877362231-qAlmlGYCCss4DgHsjtrClm8J
 
 functions:
   main:
@@ -25,7 +23,6 @@ functions:
   memes:
     handler: cron-dndmemes
     events:
-      - schedule: rate(1 days)
 
 plugins:
   - '@webtask/serverless-webtasks'
